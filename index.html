@@ -88,6 +88,9 @@ button{cursor:pointer}
 
 /* Cards */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:14px;min-width:0}
+.card,form,.setup{grid-template-columns:minmax(0,1fr)}
+.money input,.field input{width:100%;min-width:0}
+.field input[type="date"]{-webkit-appearance:none;appearance:none;min-height:42px}
 .sec-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .sec-head .meta{font-size:.85rem;color:var(--muted)}
 
